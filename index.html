@@ -13,7 +13,13 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container" id="top">
+    <ul class="skip">
+      <li><a href="#nav">Go to nav content</a></li>
+      <li><a href="#contact">Go to contact section</a></li>
+
+    <nav role="navigation" id="nav">
+    </ul>
     <div class="site-header">
       <h1>Jam Box Studios</h1>
       <div class="main-nav">
@@ -23,10 +29,14 @@
           <li><a href="#">Reservation</a></li>
           <li><a href="#">Studio</a></li>
         </ul>
+      </nav>
       </div>
+
+    <header role="banner">
       <img src="https://placekitten.com/1200/900" alt="Small Kitten" class="banner">
-     
+    </header>
     </div>
+
     <div class="main-content">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
@@ -48,6 +58,7 @@
         </p>
       </div>
       <div class="contact-section">
+      <section id="contact">
         <h1>Contact Us</h1>
         <form action="thanks.html">
           <label>Full Name</label>
@@ -58,11 +69,15 @@
           <textarea></textarea>
           <button type="submit">Send</button>
         </form>
+      </section>
       </div>
-    </div>
+    
+     <footer role="info-studio"> 
     <div class="site-footer">
       &copy; 2021 Jam Box Studios
+      <a href="#top">Back to Top</a>
     </div>
+  </footer>
   </div>
 </body>
 
