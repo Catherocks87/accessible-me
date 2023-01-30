@@ -32,26 +32,52 @@ img {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  background-color: lightskyblue;
 }
 
-.main-nav ul li {
+.main-nav ul li  {
   flex: 1;
   text-align: center;
+  
+  
+  
 }
 
 .main-nav ul li a {
-  display: block;
-  color: inherit;
+  display:block;
+  color: black;
   text-decoration: none;
   font-size: 1.25rem;
+  
+}
+
+li a{
+  padding: 20px 20px;
+}
+
+li  a:hover{ 
+  background-color: whitesmoke;
+  
+  
 }
 
 form input,
 form textarea {
   display: block;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   padding: .5rem 1rem;
+
+}
+
+label {
+  margin-left: 16rem;
+}
+
+b{
+  margin-left: 16rem;
 }
 
 form textarea {
@@ -63,9 +89,14 @@ form textarea {
 
 form button {
   background: lightskyblue;
-  border: 2px solid whitesmoke;
+  border: 2px solid lightskyblue;
   padding: 1rem;
+  margin-left: 16rem;
   text-transform: uppercase;
+  font-weight: bold;
+}
+.contact-section h1{
+  text-align: center;
 }
 
 .site-footer {
@@ -98,6 +129,40 @@ ul {
   font-weight: bold;
   
 }
+
+li {
+  list-style-type: none;
+}
+
+
+
+.container-meet{
+  background-color: whitesmoke;
+  padding: 1.5em 2em;
+}
+
+.container-location {
+  background-color: whitesmoke;
+  padding: 1.5em 2em;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  color: black;
+}
+
+.grid-container h1{
+  color:gray;
+  font-weight: bold;
+
+}
+
+
+
+
+
 
 
 
